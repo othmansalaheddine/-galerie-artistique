@@ -1,0 +1,296 @@
+/* Portfolio*/
+
+h1 {
+    font-size: 36px;
+  color: red;
+}
+
+.container {
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.card {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* TESTIMONIALS */
+.box1 {
+    display: flex;
+
+}
+
+.box1-left {
+    display: flex;
+
+}
+
+/* Portfolio Section*/
+
+.main-portfolio-sec {
+    margin-top: 44rem;
+}
+
+.sec-container {
+    padding: 0 5rem;
+}
+
+.main-portfolio-sec .portfolio-item-bundle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-portfolio-sec .portfolio-item {
+    margin: 1rem;
+    height: 100%;
+}
+
+
+
+/* About */
+body {
+    display: flex;
+    flex-direction: column;
+   
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0b0b0b;
+    color: #fff;
+    margin: 0;
+   
+}
+
+/* .title{
+    padding-top: 900px;
+} */
+
+h1 {
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.dd {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.l:hover {
+    background-color: rgb(255, 0, 8);
+    display: flex;
+    direction: rtl;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.allo {
+  
+    margin-top: 77%;
+}
+.sec-head {
+    display: flex;
+    justify-content: center;
+}
+.img-about {
+    display: flex;
+    justify-content: center;
+    padding: 0 185px;
+}
+.img-about .P {
+
+ font-size: 3rem;
+}
+.img-about .IQ img {
+    height: 57rem;
+    padding: 0 4rem;
+}
+
+
+.box11 {
+    display: flex;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: Semi Bold;
+    font-size: 22px;
+    opacity: 1;
+
+}
+
+.box12 {
+    flex-direction: row-reverse;
+}
+
+.box12 h6 {
+    width: 430px;
+    height: 309px;
+}
+
+.box13 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.box13 h6 {
+    width: 327px;
+    height: 362px;
+}
+
+.box11 div {
+    padding: 25px;
+    width: 309.01px;
+    height: 327.08px;
+}
+
+.box11 p {
+    padding-left: 90px;
+    padding-top: 50px;
+
+}
+
+.box11 h2 {
+    padding-left: 90px;
+
+}
+
+.box11 h6 {
+    width: 309px;
+    height: 327px;
+}
+
+
+.box1-left {
+    object-fit: none;
+}
+
+#h1:hover {
+
+    color: #08f608;
+
+}
+
+.box13 {
+
+    width: 309.005px;
+    height: 327.077px;
+    background-color: #302f2f;
+
+}
+
+.container-contact1 {
+    margin-top: 190px;
+    width: 727px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact1 {
+    margin-left: 230px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 69.096px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.name {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.name p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 38.027px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.name input {
+    width: 727px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #BBB;
+    font-family: Inter;
+    font-size: 21.245px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.message {
+    width: 100px;
+    height: 200px;
+
+}
+
+.message p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 38.027px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.message input {
+    width: 727px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 110px;
+    margin-top: 10px;
+    color: #BBB;
+    font-family: Inter;
+    font-size: 21.245px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    outline: none;
+}
+
+button {
+    margin-top: 70px;
+    height: 60px;
+    width: 160px;
+    border-radius: 0%;
+    border: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 32.638px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
